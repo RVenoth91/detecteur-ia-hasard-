@@ -15,14 +15,3 @@ Un classifieur IA simple qui devine si une phrase a été écrite par un humain 
 2. Ouvre un terminal dans le dossier du fichier
 3. Tape : `python detecteur.py`
 4. Teste des phrases comme "Bonjour comment ça va ?"
-
-### Exemple d'exécution : 
-==================================================
-🤖 Détecteur de Hasard vs Intelligence
-==================================================
-
-✍️ Ta phrase : Je suis un humain
-🔍 Résultat : 🧠 HUMAIN
-
-✍️ Ta phrase : azerty qsdfgh
-🔍 Résultat : 🎲 HASARD 
