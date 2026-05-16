@@ -1,0 +1,30 @@
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de logs
+*.log
+*.csv
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers d'IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers de cache
+*.cache
+.pytest_cache/
+
+# Fichiers d'environnement
+.env
+venv/
+env/
+ENV/
