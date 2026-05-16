@@ -2,15 +2,27 @@
 
 Un classifieur IA simple qui devine si une phrase a été écrite par un humain ou générée aléatoirement.
 
-## 🎯 Le concept
+---
 
-Le programme analyse deux caractéristiques d'une phrase :
-- **La longueur moyenne des mots**
-- **Le nombre de lettres rares** (z, q, w, x, y, k)
+## 🖥️ Comment tester ce projet ?
 
-Il compare ensuite la phrase à un modèle entraîné sur des exemples connus.
+### Prérequis :
+- Avoir Python installé sur son ordinateur
+- Télécharger le fichier `detecteur.py`
 
-## 🚀 Comment l'utiliser ?
+### Étapes :
+1. Télécharge le fichier `detecteur.py`
+2. Ouvre un terminal dans le dossier du fichier
+3. Tape : `python detecteur.py`
+4. Teste des phrases comme "Bonjour comment ça va ?"
 
-```bash
-python detecteur.py
+### Exemple d'exécution : 
+==================================================
+🤖 Détecteur de Hasard vs Intelligence
+==================================================
+
+✍️ Ta phrase : Je suis un humain
+🔍 Résultat : 🧠 HUMAIN
+
+✍️ Ta phrase : azerty qsdfgh
+🔍 Résultat : 🎲 HASARD 
